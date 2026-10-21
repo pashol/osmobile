@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">OpenOM · BLE-Diagnose</string>
+    <string name="intro">Osmo Mobile 2 · erster Verbindungsprototyp\nGerät antippen, um das GATT-Profil zu prüfen. Noch keine Kamera- oder Motorsteuerung.</string>
+    <string name="permissions">Bluetooth-Berechtigungen</string>
+    <string name="bluetooth_on">Bluetooth einschalten</string>
+    <string name="settings">App-Einstellungen</string>
+    <string name="scan">15 s suchen</string>
+    <string name="scan_stop">Suche stoppen</string>
+    <string name="disconnect">Trennen / Abbrechen</string>
+    <string name="share_log">Log teilen</string>
+    <string name="clear_log">Log leeren</string>
+    <string name="licenses">Lizenzen</string>
+    <string name="no_devices">Noch keine Geräte. Gimbal einschalten und Suche starten. Bei fehlenden Treffern DJI GO bzw. andere BLE-Apps trennen.</string>
+    <string name="permission_ok">Nearby-Devices-Berechtigungen erteilt.</string>
+    <string name="permission_missing">Bluetooth-Berechtigungen fehlen. Bei dauerhafter Ablehnung unter App-Einstellungen freigeben.</string>
+    <string name="profile_note">„Kandidat“ ist ein Namens-/Servicehinweis. Auch ein passendes FFF0-Profil bestätigt das Modell OM170 noch nicht eindeutig. Akku/Firmware: noch nicht ausgelesen.</string>
+</resources>

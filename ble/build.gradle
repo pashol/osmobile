@@ -1,0 +1,14 @@
+plugins { id 'com.android.library' }
+android {
+    namespace 'org.openom.ble'
+    compileSdk 36
+    defaultConfig { minSdk 31 }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+dependencies {
+    api project(':protocol')
+    implementation 'no.nordicsemi.android:ble:2.11.0'
+}
